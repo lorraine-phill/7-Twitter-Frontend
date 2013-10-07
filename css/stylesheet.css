@@ -1,0 +1,134 @@
+body {
+        margin: 0;
+        font-family: Helvetica Neue, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        background-image: url('../images/twitter-bg.png');
+        background-repeat: no-repeat;
+        background-color: black;
+         }
+
+div {
+    display: block;
+    }
+
+#entire-page { 
+        height: 100%;
+        }
+
+#header { 
+        background: #252525;
+        height: 40px; 
+        left: 0; 
+        position: fixed; 
+        width:100%; 
+        top:0; 
+        text-align:center;
+        }
+
+#main-page {
+    height: 100%;
+    }
+
+#page-body {
+    height: 100%;
+    }
+
+.wrapper {
+    position: relative;
+    width: 837px;
+    height: 100%;
+    padding: 54px 14px 15px;
+    margin: 0 auto;
+    background: url('../images/wash-white.png');
+    }
+
+#dashboard {
+    float: left;
+    width: 302px;
+    color: white;
+    }
+
+.module {
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 16px;
+    border-radius: 6px;
+    background-clip: padding-box;
+    }
+
+.mini-profile {
+    font-size: 12px;
+    }
+
+.flex-module {
+    background-color: #f9f9f9;
+    padding: 12px;
+    line-height: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    }
+
+.pic {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url('../images/lp-image.png');
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 15px;
+    float: left;
+    }
+
+.name {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    color: black;
+    }
+.gray-font {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 11px;
+    color: gray;
+    }
+.stats {
+    overflow: hidden;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+
+.stats li {
+    display: inline;
+    }
+
+.composer {
+    padding: 20px 12px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.form-text{
+    padding:15px 0;
+}
+.content-main {
+    float: right;
+    width: 522px;
+    color: white;
+    border-radius: 6px;
+)
+.content-header, .content-no-header 
+    {
+border: 1px solid #eee;
+border: 1px solid rgba(0,0,0,.1);
+border-radius: 6px 6px 0 0;
+background-clip: padding-box;
+border-bottom-width: 0;
+}
+.header-inner, .content-no-header .no-header-inner {
+min-height: 20px;
+padding: 12px;
+background-color: #fff;
+border-bottom: 1px solid #e8e8e8;
+border-radius: 5px 5px 0 0;
